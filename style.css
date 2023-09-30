@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    background-color: #222;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+    color: aquamarine;
+    /* margin-left: 45%; */
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+
+}
+.swiper-slide img{
+     width : 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+
+
